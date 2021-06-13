@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "garamond";
+  src: url("EB_Garamond/EBGaramond-VariableFont_wght.ttf");
+}
+
+.header {
+  font-family: "garamond";
+  font-size: 200%; 
+  margin-top: 0%; 
+  margin-left: 1%;
+}
+
+
+p-test {
+  font-size:50px; 
+  color: mediumturquoise;
+  margin-top:0px; 
+  margin-left:10px;
+  animation: example 4s infinite;
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
