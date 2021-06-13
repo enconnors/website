@@ -10,6 +10,13 @@
   margin-left: 10px;
 }
 
+.body {
+  font-family: "garamond";
+  font-size: 25px; 
+  margin-top: 10px; 
+  margin-left: 10px;
+}
+
 
 @keyframes example {
   0%   {background-color: red;}
