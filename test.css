@@ -13,14 +13,5 @@
 .bottom {
   font-family: "garamond";
   font-size: 25px; 
-  margin-top: 10px; 
   margin-left: 10px;
-}
-
-
-@keyframes example {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
 }
