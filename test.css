@@ -3,14 +3,14 @@
   src: url("EB_Garamond/EBGaramond-VariableFont_wght.ttf");
 }
 
-.header {
+.top {
   font-family: "garamond";
   font-size: 50px; 
   margin-top: 0px; 
   margin-left: 10px;
 }
 
-.body {
+.bottom {
   font-family: "garamond";
   font-size: 25px; 
   margin-top: 10px; 
