@@ -1,6 +1,11 @@
 @font-face {
   font-family: "garamond";
-  src: url("Roboto/Roboto-Thin.ttf");
+  src: url("Notable/Notable-Regular.ttf");
+}
+
+@font-face {
+  font-family: "body-text";
+  src: url("Noto_Sans_Mono/NotoSansMono-VariableFont_wdth\,wght.ttf");
 }
 
 a {
@@ -11,16 +16,23 @@ header{
   position: sticky;
   top:0;
   font-family: "garamond";
-  font-size: 50px; 
+  font-size: 100px; 
   position: -webkit-sticky;
   position: sticky;
-  margin-top: 0px; 
+  margin-top: 0px;
   margin-left: 10px;
   background-color: white;
 }
 
-.bottom {
+.bottom-home {
   font-family: "garamond";
+  font-size: 25px; 
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bottom {
+  font-family: "body-text";
   font-size: 25px; 
   margin-left: 10px;
   margin-right: 10px;
