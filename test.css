@@ -37,3 +37,9 @@ header{
   margin-left: 10px;
   margin-right: 10px;
 }
+
+/*body {
+  background-color: white; /*Default bg, similar to the background's base color
+  background-image: url("icon.png");*/
+  /*background-position: right bottom; Positioning*/
+  /*background-repeat: no-repeat; Prevent showing multiple background images*/
