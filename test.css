@@ -1,11 +1,11 @@
 @font-face {
   font-family: "garamond";
-  src: url("Notable/Notable-Regular.ttf");
+  src: url("fonts/Notable-Regular.ttf");
 }
 
 @font-face {
   font-family: "body-text";
-  src: url("Noto_Sans_Mono/NotoSansMono-VariableFont_wdth\,wght.ttf");
+  src: url("fonts/NotoSansMono-VariableFont_wdth\,wght.ttf");
 }
 
 a {
