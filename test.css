@@ -13,7 +13,7 @@ a {
 }
 
 body {
-  background-color: hotpink;
+  background-color: white;
 }
 
 header{
@@ -25,7 +25,7 @@ header{
   position: sticky;
   margin-top: 0px;
   margin-left: 10px;
-  background-color: hotpink;
+  background-color: white;
 }
 
 .bottom-home {
