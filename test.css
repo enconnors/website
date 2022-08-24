@@ -31,3 +31,15 @@ header{
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.poetry {
+  position: sticky;
+  top:0;
+  font-family: "body-text";
+  font-size: 3vw; 
+  position: -webkit-sticky;
+  position: sticky;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+}
