@@ -21,7 +21,9 @@ body {
 .header_new{
   text-align: center;
   font-family: "Monofett";
-  font-size: 60px;
+  font-size: 8vw;
+  margin-right: 10%; 
+  margin-left: 10%;
   margin: 0px; 
 }
 
@@ -36,7 +38,7 @@ body {
 .poetry {
   text-align: center;
   font-family: 'Noto Sans Mono';
-  font-size: 2vw; 
+  font-size: 3vw; 
   margin-right: 10%; 
   margin-left: 10%
 }
