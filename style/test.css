@@ -35,6 +35,14 @@ body {
   margin-left: 10%
 }
 
+.bottom_left {
+  font-family: 'Noto Sans Mono';
+  font-size: 20px; 
+  text-align: left;
+  margin-right: 10%; 
+  margin-left: 10%
+}
+
 .poetry {
   text-align: center;
   font-family: 'Noto Sans Mono';
