@@ -38,8 +38,8 @@ body {
   background-clip:padding-box,text;
   background-repeat:no-repeat;
   animation: 
-   b .05s infinite steps(1),   
-   t calc(var(--n)*.05s) steps(var(--n)) forwards;
+   b .03s infinite steps(1),   
+   t calc(var(--n)*.03s) steps(var(--n)) forwards;
 }
 
 @keyframes t{
