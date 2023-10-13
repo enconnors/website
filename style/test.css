@@ -6,47 +6,69 @@ body {
   background-color: white;
 }
 
-.header{
-  text-align: center;
+.site-header{
+  text-align: left;
   position: sticky;
-  top:0;
-  font-family: "Monofett";
-  font-size: 11vw; 
-  margin: 0px;
-  /* margin-left: 10px; */
+  margin-right: 5%; 
+  margin-left: 5%;
+  top: 0;
+  /* padding-top: 5%;  */
+  font-family: "EB Garamond";
+  font-size: 8vw; 
   background-color: white;
   /* background-image: "father.png" */
 }
 
-.header_new{
-  text-align: center;
-  font-family: "Monofett";
-  font-size: 7vmax;
-  margin-right: 10%; 
-  margin-left: 10%;
-  margin: 0px; 
+.bio {
+  font-family: 'EB Garamond';
+  font-size: calc(10px + 1.5vw);
+  text-align: left; 
+  margin-right: 5%; 
+  margin-left: 5%; 
+  margin-top: -5%; 
 }
 
-.bottom {
-  font-family: 'Noto Sans Mono';
-  font-size: 20px; 
-  text-align: center;
-  margin-right: 10%; 
-  margin-left: 10%
+.site_header {
+  font-family: 'Monofett';
+  font-size: calc(50px + 1.5vw);
+  text-align: center; 
+  margin-bottom: 10%; 
+  margin-top: -5%;
 }
 
-.bottom_left {
-  font-family: 'Noto Sans Mono';
-  font-size: 20px; 
-  text-align: left;
-  margin-right: 10%; 
-  margin-left: 10%
+.monofett_header {
+  font-family: 'Monofett';
+  font-size: calc(20px + 1.5vw);
+  text-align: left; 
+  margin-right: 5%; 
+  margin-left: 5%; 
 }
 
-.poetry {
+.garamond_body {
+  font-family: 'EB Garamond';
+  font-size: calc(8px + 1.5vw);
+  text-align: left; 
+  margin-right: 5%; 
+  margin-left: 5%; 
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-right: 5%;
+    margin-left: 5%;
+    max-width: 20%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  margin-top: 10px;
   text-align: center;
-  font-family: 'Noto Sans Mono';
-  font-size: 2.5vmin; 
-  margin-right: 10%; 
-  margin-left: 10%
+  font-size: calc(6px + 1.5vw);;
+  font-family: "EB Garamond"
 }
