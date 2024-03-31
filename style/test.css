@@ -7,25 +7,30 @@ body {
 }
 
 .site-header{
-  text-align: left;
-  position: sticky;
-  margin-right: 5%; 
-  margin-left: 5%;
-  top: 0;
-  /* padding-top: 5%;  */
-  font-family: "EB Garamond";
-  font-size: 8vw; 
-  background-color: white;
-  /* background-image: "father.png" */
+  text-align: center;
+  position: top; 
+  font-family: "Monofett";
+  position: relative;
+  top: -40px; 
+  font-size: calc(10px + 1.5vw);
 }
 
 .bio {
-  font-family: 'EB Garamond';
+  font-family: 'Roboto';
+  font-size: calc(15px + 1.5vw);
+  text-align: center; 
+  margin-right: 20%; 
+  margin-left: 20%; 
+  padding-top: 15px; 
+}
+
+.bio_left {
+  font-family: 'Roboto';
   font-size: calc(15px + 1.5vw);
   text-align: left; 
-  margin-right: 5%; 
-  margin-left: 5%; 
-  margin-top: -5%; 
+  margin-right: 20%; 
+  margin-left: 20%; 
+  padding-top: 15px; 
 }
 
 .type {
@@ -58,7 +63,7 @@ body {
 }
 
 .garamond_body {
-  font-family: 'EB Garamond';
+  font-family: 'Roboto';
   font-size: calc(15px + 1.5vw);
   text-align: left; 
   margin-right: 5%; 
@@ -83,5 +88,5 @@ img {
   margin-top: 10px;
   text-align: center;
   font-size: calc(6px + 1.5vw);;
-  font-family: "EB Garamond"
+  font-family: "Roboto"
 }
