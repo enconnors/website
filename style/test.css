@@ -5,7 +5,7 @@ a {
 body {
   background-color: white;
 }
-
+/* 
 .site-header{
   text-align: center;
   position: top; 
@@ -13,10 +13,11 @@ body {
   position: relative;
   top: -40px; 
   font-size: calc(30px + 0.5vw);
-}
+} */
 
 .bio {
   font-family: 'Roboto';
+  -webkit-text-size-adjust: 100%;
   font-size: 4vw;
   text-align: center; 
   margin-right: 20%; 
@@ -26,6 +27,7 @@ body {
 
 .bio_left {
   font-family: 'Roboto';
+  -webkit-text-size-adjust: 100%;
   font-size: 3vw;
   text-align: left; 
   margin-right: 20%; 
@@ -33,7 +35,7 @@ body {
   padding-top: 40px; 
 }
 
-.type {
+/* .type {
   color:#0000;
   background:
     linear-gradient(-90deg,black 0px,#0000 0) 10px 0,
@@ -45,16 +47,16 @@ body {
   animation: 
    b .03s infinite steps(1),   
    t calc(var(--n)*.03s) steps(var(--n)) forwards;
-}
+} */
 
-@keyframes t{
+/* @keyframes t{
   from {background-size:0 200%}
 }
 @keyframes b{
   50% {background-position:0 -100%,0 0}
-}
+} */
 
-.monofett_header {
+/* .monofett_header {
   font-family: 'Monofett';
   font-size: calc(35px + 1.5vw);
   text-align: left; 
@@ -68,18 +70,18 @@ body {
   text-align: left; 
   margin-right: 5%; 
   margin-left: 5%; 
-}
+} */
 
-.image-container {
+/* .image-container {
     display: flex;
     flex-direction: column;
     float: right;
     margin-right: 5%;
     margin-left: 5%;
     max-width: 20%;
-}
+} */
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
 }
@@ -89,4 +91,7 @@ img {
   text-align: center;
   font-size: calc(6px + 1.5vw);;
   font-family: "Roboto"
-}
+} */
+
+.wf-loading { visibility: hidden; } /* font is loading and hidden */
+.wf-active, .wf-inactive { visibility: visible; } /* font has loaded and is visible */
