@@ -5,19 +5,10 @@ a {
 body {
   background-color: white;
 }
-/* 
-.site-header{
-  text-align: center;
-  position: top; 
-  font-family: "Monofett";
-  position: relative;
-  top: -40px; 
-  font-size: calc(30px + 0.5vw);
-} */
 
 .bio {
   /* font-family: 'Archivo Narrow'; */
-    font-family: 'Lato';
+  font-family: 'Lato';
   -webkit-text-size-adjust: 100%;
   font-size: 4vw;
   text-align: left; 
@@ -27,75 +18,6 @@ body {
   font-weight: normal;
   
 }
-
-.bio_bold {
-  font-family: 'Archivo Narrow';
-  -webkit-text-size-adjust: 100%;
-  font-size: 3vw;
-  text-align: left; 
-  margin-right: 20%; 
-  margin-left: 20%; 
-  padding-top: 40px; 
-  font-weight: bold;
-}
-
-/* .type {
-  color:#0000;
-  background:
-    linear-gradient(-90deg,black 0px,#0000 0) 10px 0,
-    linear-gradient(black 0 0) 0 0;
-  background-size:calc(var(--n)*1ch) 200%;
-  -webkit-background-clip:padding-box,text;
-  background-clip:padding-box,text;
-  background-repeat:no-repeat;
-  animation: 
-   b .03s infinite steps(1),   
-   t calc(var(--n)*.03s) steps(var(--n)) forwards;
-} */
-
-/* @keyframes t{
-  from {background-size:0 200%}
-}
-@keyframes b{
-  50% {background-position:0 -100%,0 0}
-} */
-
-/* .monofett_header {
-  font-family: 'Monofett';
-  font-size: calc(35px + 1.5vw);
-  text-align: left; 
-  margin-right: 5%; 
-  margin-left: 5%; 
-}
-
-.garamond_body {
-  font-family: 'Roboto';
-  font-size: calc(15px + 1.5vw);
-  text-align: left; 
-  margin-right: 5%; 
-  margin-left: 5%; 
-} */
-
-/* .image-container {
-    display: flex;
-    flex-direction: column;
-    float: right;
-    margin-right: 5%;
-    margin-left: 5%;
-    max-width: 20%;
-} */
-
-/* img {
-  max-width: 100%;
-  height: auto;
-}
-
-.caption {
-  margin-top: 10px;
-  text-align: center;
-  font-size: calc(6px + 1.5vw);;
-  font-family: "Roboto"
-} */
 
 .wf-loading { visibility: hidden; } /* font is loading and hidden */
 .wf-active, .wf-inactive { visibility: visible; } /* font has loaded and is visible */
