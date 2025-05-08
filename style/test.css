@@ -16,23 +16,27 @@ body {
 } */
 
 .bio {
-  font-family: 'Roboto';
+  /* font-family: 'Archivo Narrow'; */
+    font-family: 'Lato';
   -webkit-text-size-adjust: 100%;
   font-size: 4vw;
-  text-align: center; 
+  text-align: left; 
   margin-right: 20%; 
   margin-left: 20%; 
   padding-top: 40px; 
+  font-weight: normal;
+  
 }
 
-.bio_left {
-  font-family: 'Roboto';
+.bio_bold {
+  font-family: 'Archivo Narrow';
   -webkit-text-size-adjust: 100%;
   font-size: 3vw;
   text-align: left; 
   margin-right: 20%; 
   margin-left: 20%; 
   padding-top: 40px; 
+  font-weight: bold;
 }
 
 /* .type {
