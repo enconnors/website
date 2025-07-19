@@ -10,7 +10,7 @@ body {
   /* font-family: 'Archivo Narrow'; */
   font-family: 'Lato';
   -webkit-text-size-adjust: 100%;
-  font-size: 5vw;
+  font-size: min(5vw, 50px);
   text-align: left; 
   margin-right: 10%; 
   margin-left: 10%; 
