@@ -2,22 +2,45 @@ a {
   text-decoration: none; 
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: white;
+  background-color: cornsilk;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: black; 
+  padding-left: 9.7%;
+  padding-right: 10%;
+
+  background: cornsilk;
+  font-family: 'Lilex';
+  font-size: min(8vw, 50px);
+  padding-top: 50px;
 }
 
 .bio {
-  /* font-family: 'Archivo Narrow'; */
-  font-family: 'Lato';
-  -webkit-text-size-adjust: 100%;
-  font-size: min(5vw, 50px);
-  text-align: left; 
-  margin-right: 10%; 
-  margin-left: 10%; 
-  padding-top: 40px; 
-  font-weight: normal;
-  
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Lilex';
+  font-size: min(5vw, 30px);
+  padding-top: 150px; /* clear the fixed header */
 }
+.img {
+  width: 45%; 
+  float: right; 
+  margin-left: 5%; 
+  margin-bottom: 3%
+}
+
+
 
 .wf-loading { visibility: hidden; } /* font is loading and hidden */
 .wf-active, .wf-inactive { visibility: visible; } /* font has loaded and is visible */
