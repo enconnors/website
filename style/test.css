@@ -31,7 +31,7 @@ body {
   padding-right: 10%;
   font-family: 'Lilex';
   font-size: min(5vw, 30px);
-  padding-top: 150px; /* clear the fixed header */
+  padding-top: min(30%, 150px); /* clear the fixed header */
 }
 .img {
   width: 45%; 
@@ -39,8 +39,6 @@ body {
   margin-left: 5%; 
   margin-bottom: 3%
 }
-
-
 
 .wf-loading { visibility: hidden; } /* font is loading and hidden */
 .wf-active, .wf-inactive { visibility: visible; } /* font has loaded and is visible */
