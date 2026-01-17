@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  background-color: cornsilk;
+  background-color: white;
 }
 
 .header {
@@ -19,21 +19,24 @@ body {
   color: black; 
   padding-left: 9.7%;
   padding-right: 10%;
-  background: cornsilk;
-  font-family: 'Lilex';
+  background: white;
+  font-family: 'Inter';
   font-size: min(8vw, 50px);
-  padding-top: 50px;
+  padding-top: 50px; 
+  font-weight: bold;
+  text-align: right
 }
 
 .bio {
   padding-left: 10%;
   padding-right: 10%;
-  font-family: 'Lilex';
-  font-size: min(5vw, 30px);
+  font-family: 'Inter';
+  /* font-size: min(5vw, 30px); */
+  font-size: 20px; 
   padding-top: min(30%, 150px); /* clear the fixed header */
 }
 .img {
-  width: 45%; 
+  width: 30%; 
   float: right; 
   margin-left: 5%; 
   margin-bottom: 3%
