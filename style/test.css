@@ -1,5 +1,6 @@
 a {
   text-decoration: none; 
+  color: 
 }
 
 html, body {
@@ -23,7 +24,8 @@ body {
   font-family: 'Inter';
   font-size: min(8vw, 50px);
   padding-top: 50px; 
-  font-weight: bold;
+  font-weight: bolder;
+  letter-spacing: 1px;
   text-align: right
 }
 
