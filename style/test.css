@@ -32,11 +32,11 @@ body {
   padding-right: 10%;
   font-family: 'Inter';
   /* font-size: min(5vw, 30px); */
-  font-size: 20px; 
+  font-size: min(20px, 5vw); 
   padding-top: min(30%, 150px); /* clear the fixed header */
 }
 .img {
-  width: 30%; 
+  width: min(40%, 300px); 
   float: right; 
   margin-left: 5%; 
   margin-bottom: 3%
