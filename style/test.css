@@ -30,7 +30,6 @@ body, header {
   font-size: min(8vw, 50px);
   padding-top: 50px; 
   font-weight: bolder;
-  letter-spacing: 1px;
   text-align: right
 }
 
