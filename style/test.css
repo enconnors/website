@@ -23,7 +23,8 @@ body, header {
   top: 0;
   left: 0;
   right: 0;
-  color: black; 
+  background: #fafafa;
+  color: #222;
   padding-left: 9.7%;
   padding-right: 10%;
   /* font-family: 'Inter'; */
