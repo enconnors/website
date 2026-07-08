@@ -43,7 +43,7 @@ body, header {
 }
 
 .image-block {
-  width: min(40%, 200px);
+  width: min(50%, 250px);
   float: right;
   margin-left: 5%;
   margin-bottom: 3%;
