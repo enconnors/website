@@ -188,7 +188,7 @@ a.header {
 .bio {
   width: min(1120px, 84%);
   margin: 0 auto;
-  padding: clamp(136px, 13.2vw, 156px) 0 80px;
+  padding: clamp(136px, 13.2vw, 156px) 0 32px;
   font-size: clamp(1.25rem, 1.93vw, 1.33rem);
   line-height: 1.36;
   text-align: left;
@@ -327,7 +327,7 @@ a.header {
 
   .bio {
     padding-top: clamp(116px, 27.5vw, 129px);
-    padding-bottom: 32px;
+    padding-bottom: 16px;
     font-size: 1.18rem;
     line-height: 1.38;
   }
