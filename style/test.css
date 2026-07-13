@@ -168,10 +168,10 @@ a.header {
   min-width: max-content;
   padding: 10px 0 8px 18px;
   flex-direction: column;
-  gap: 8px;
+  gap: 14px;
   align-items: flex-end;
   background: var(--paper);
-  font-size: 1rem;
+  font-size: 1.38rem;
   font-weight: 400;
   line-height: 1.2;
 }
@@ -316,8 +316,8 @@ a.header {
   }
 
   .header-nav {
-    gap: 8px;
-    font-size: 0.9rem;
+    gap: 12px;
+    font-size: 1.26rem;
   }
 
   .header-name,
