@@ -219,6 +219,7 @@ a.header {
 
   .bio {
     padding-top: clamp(87px, 20.5vw, 100px);
+    padding-bottom: 32px;
     font-size: 1.22rem;
     line-height: 1.38;
   }
