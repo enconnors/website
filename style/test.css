@@ -68,6 +68,17 @@ a.header {
   white-space: nowrap;
 }
 
+.header-name {
+  color: #102433;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+  padding: 0 0.2em;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 36' preserveAspectRatio='none'%3E%3Cpath d='M2 7 C28 1 55 7 82 4 C112 1 145 6 198 3 L195 32 C156 35 125 29 92 34 C58 36 30 31 4 34 Z' fill='%23f3dfa1' fill-opacity='.94'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 92%;
+}
+
 .header-nav {
   display: flex;
   gap: clamp(16px, 2vw, 24px);
