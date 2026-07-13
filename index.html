@@ -1,41 +1,50 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
   <title>Elliot Connors</title>
   <link rel="stylesheet" href="style/test.css">
-  <link rel="icon" href="elliot_orig.jpeg" type="image/jpeg">
+  <link rel="icon" href="favicon.jpg?v=2" type="image/jpeg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  
-  <body>
-    <a class = "header" href = "index.html">Elliot Connors</a>
-    <div class = "bio">
-      <div class="image-block">
-        <img class="img" src="elliot.jpeg" alt="Elliot">
-        <!-- <div class="caption"><i>A portrait of the artist with his father</i></div> -->
+</head>
+
+<body>
+  <header class="header">
+    <a class="header-name" href="index.html">Elliot Connors</a>
+    <nav class="header-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="pages/contact.html">Contact</a>
+    </nav>
+  </header>
+  <div class="bio home-bio" id="about">
+    <div class="image-block">
+      <picture>
+        <source
+          type="image/webp"
+          srcset="elliot-640.webp?v=2 640w, elliot-960.webp?v=2 960w, elliot-1600.webp?v=2 1600w"
+          sizes="(max-width: 700px) calc(100vw - 40px), (min-width: 900px) min(42vw, 480px), 36vw">
+        <img class="img" src="elliot_web.jpg" alt="Elliot" width="1600" height="1067">
+      </picture>
+      <div class="credits">
+        <span>Photo: Alejandro Lewin</span>
+        <span>Title Font: Itai Almor</span>
       </div>
-    <strong><a href="index.html">Elliot Connors</a></strong> is a Canadian-American writer for the stage and screen.  
-    <!-- </br></br> -->
-    He is currently a playwright-in-residence at the NYC theater company <strong><a target="_blank" href="https://www.coltcoeur.org/residents">Colt Coeur</strong></a> 
-    <!-- He's also been shortlisted for awards from 
-    <strong><i><a target="_blank" href = "https://theadroitjournal.org/about/anthology-presence/">Humanitas</strong></i></a>, 
-    Rattlestick Theater, and Anarchists United.  -->
-    and a semifinalist for the <a target="_blank" href = "https://www.humanitasprize.org/2026-college-screenwriting-awards-placements"><strong>Humanitas Carol Mendelsohn Award</strong></a>.
-    His prose has been featured in 
-    <strong><i><a target="_blank" href = "https://theadroitjournal.org/about/anthology-presence/">The Best American Essays</i></a></strong>, 
-    <strong><i><a target="_blank" href = "https://www.mcsweeneys.net/articles/the-13-raddest-things-about-turning-13">McSweeney’s</i></strong></a> and 
-    <strong><i><a href = "pages/internet.html">The Yale Record</a></i></strong>, of which he was Editor in Chief.
-    As a writer’s assistant, he has punched up features for 
-    <strong><a target="_blank" href="https://www.sonypictures.com/movies/spidermanacrossthespiderverse"><i>Sony</i></a></strong>, 
-    <a target="_blank" href="https://www.netflix.com/fr-en/title/81110501"><i><strong>Netflix</strong></i></a>, 
-    and
-    <a target="_blank" href="https://www.amazon.com/salp/thesheepdetectives?hhf"><strong><i>Amazon</i></strong></a>. 
-    His debut short film will premiere on <strong><i><href><a target="_blank" href="https://nobudge.com/" >NoBudge</i></strong></a> in August. 
-    <!-- and his play BACHELOR PARTY! will premiere in New York in January.  -->
-
-
-     <!-- </br></br> -->
-    MFA: NYU, BA: Yale. 
-    Please email Hope at <strong><a href="mailto:hlawson@gersh.com">hlawson [at] gersh.com</a></strong> or Elliot at <strong><a href="mailto:elliotnadeauconnors@gmail.com">elliotnadeauconnors [at] gmail.com</a></strong>.</br></br>
-</div>
+    </div>
+    <div class="bio-copy">
+      <p><strong><a href="index.html">Elliot Connors</a></strong> is a Canadian-American writer based in Brooklyn, New York.</p>
+      <p>He is currently a playwright-in-residence at the theater company <strong><a target="_blank" href="https://www.coltcoeur.org/residents">Colt Coeur</a></strong>
+      and a semifinalist for the <a target="_blank" href="https://www.humanitasprize.org/2026-college-screenwriting-awards-placements"><strong>Humanitas Carol Mendelsohn Award</strong></a>.</p>
+      <p>His prose has been featured in
+      <strong><i><a target="_blank" href="https://theadroitjournal.org/about/anthology-presence/">The Best American Essays</a></i></strong>,
+      <strong><i><a target="_blank" href="https://www.mcsweeneys.net/articles/the-13-raddest-things-about-turning-13">McSweeney’s</a></i></strong> and
+      <strong><i><a href="pages/internet.html">The Yale Record</a></i></strong>, of which he was Editor in Chief.</p>
+      <p>As a writer’s assistant, he has punched up features for
+      <strong><a target="_blank" href="https://www.sonypictures.com/movies/spidermanacrossthespiderverse"><i>Sony</i></a></strong>,
+      <a target="_blank" href="https://www.netflix.com/fr-en/title/81110501"><i><strong>Netflix</strong></i></a>, and
+      <a target="_blank" href="https://www.amazon.com/salp/thesheepdetectives?hhf"><strong><i>Amazon</i></strong></a>.</p>
+      <p>His debut short film will premiere on <strong><i><a target="_blank" href="https://nobudge.com/">NoBudge</a></i></strong> in August.</p>
+      <p>MFA: NYU. BA: Yale.</p>
+    </div>
+  </div>
 </body>
 </html>
