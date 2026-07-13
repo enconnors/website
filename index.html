@@ -11,10 +11,14 @@
 <body>
   <header class="header">
     <a class="header-name" href="index.html">Elliot Connors</a>
-    <nav class="header-nav" aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="pages/contact.html">Contact</a>
-    </nav>
+    <details class="header-menu">
+      <summary aria-label="Open navigation menu"><span class="menu-icon" aria-hidden="true"></span></summary>
+      <nav class="header-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="pages/contact.html">Contact</a>
+        <a href="pages/thanks.html">Thanks</a>
+      </nav>
+    </details>
   </header>
   <div class="bio home-bio" id="about">
     <div class="image-block">
@@ -25,10 +29,6 @@
           sizes="(max-width: 700px) calc(100vw - 40px), (min-width: 900px) min(42vw, 480px), 36vw">
         <img class="img" src="elliot_web.jpg" alt="Elliot" width="1600" height="1067">
       </picture>
-      <div class="credits">
-        <span>Photo: Alejandro Lewin</span>
-        <span>Title Font: Itai Almor</span>
-      </div>
     </div>
     <div class="bio-copy">
       <p><strong><a class="featured-link" href="index.html">Elliot Connors</a></strong> is a Canadian-American writer based in Brooklyn.</p>
