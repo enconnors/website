@@ -197,13 +197,12 @@ a.header {
 
 @media (min-width: 900px) {
   .home-bio {
-    width: min(996px, 84%);
-    grid-template-columns: minmax(0, 7fr) minmax(0, 9fr);
+    grid-template-columns: repeat(2, minmax(0, 480px));
     justify-content: center;
   }
 
   .bio-copy {
-    max-width: 540px;
+    max-width: 480px;
   }
 }
 
