@@ -195,14 +195,20 @@ a.header {
   margin: 0 0 0.85em;
 }
 
+.bio-copy .event-info {
+  font-weight: bold;
+  text-align: center;
+}
+
 @media (min-width: 900px) {
   .home-bio {
-    grid-template-columns: repeat(2, minmax(0, 480px));
+    width: min(996px, 84%);
+    grid-template-columns: minmax(0, 7fr) minmax(0, 9fr);
     justify-content: center;
   }
 
   .bio-copy {
-    max-width: 480px;
+    max-width: 540px;
   }
 }
 
