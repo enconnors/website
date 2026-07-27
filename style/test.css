@@ -195,11 +195,6 @@ a.header {
   margin: 0 0 0.85em;
 }
 
-.bio-copy .event-info {
-  font-weight: bold;
-  text-align: center;
-}
-
 @media (min-width: 900px) {
   .home-bio {
     width: min(996px, 84%);
