@@ -31,7 +31,7 @@
 }
 
 :root {
-  --paper: #163955;
+  --paper: #0e3e80;
   --ink: #eceeeb;
   --font: "IBM Plex Mono", "Courier New", monospace;
 }
@@ -272,8 +272,8 @@ a.header {
 }
 
 .image-block {
-  width: 100%;
-  margin: 5px 0 0;
+  width: 88%;
+  margin: 5px auto 0;
 }
 
 .img {
@@ -328,7 +328,8 @@ a.header {
   }
 
   .image-block {
-    width: 100%;
-    margin: 0 0 32px;
+    width: 70%;
+    max-width: 260px;
+    margin: 0 auto 32px;
   }
 }
