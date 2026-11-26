@@ -31,8 +31,9 @@
 }
 
 :root {
-  --paper: #0e3e80;
-  --ink: #eceeeb;
+  --paper: #141B1C;
+  --ink: #F1EEE7;
+  --highlight: #A9C9E2;
   --font: "IBM Plex Mono", "Courier New", monospace;
 }
 
@@ -258,7 +259,7 @@ a.header {
   color: inherit;
   font-weight: 700;
   text-decoration: underline;
-  text-decoration-color: rgba(236, 238, 235, 0.5);
+  text-decoration-color: currentColor;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.16em;
 }
@@ -347,8 +348,8 @@ a:focus-visible,
 .bio a:hover,
 .bio a:focus-visible {
   color: var(--paper);
-  background-color: var(--ink);
-  box-shadow: 0.12em 0 0 var(--ink), -0.12em 0 0 var(--ink);
+  background-color: var(--highlight);
+  box-shadow: 0.12em 0 0 var(--highlight), -0.12em 0 0 var(--highlight);
   text-decoration-color: currentColor;
 }
 a:focus-visible {
