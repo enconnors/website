@@ -408,3 +408,32 @@ a:focus-visible {
     max-width: none;
   }
 }
+
+/* Stack narrow layouts, aligning the name with the copy. */
+@media (max-width: 900px) {
+  .home-page .header,
+  .home-page .home-bio {
+    width: calc(100% - 40px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home-page .header {
+    grid-template-columns: minmax(0, 1fr) 28px;
+    column-gap: 16px;
+  }
+  .home-page .header-name {
+    justify-self: start;
+  }
+  .home-page .home-bio {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 32px;
+  }
+  .home-page .image-block {
+    grid-column: 1 / -1;
+    margin: 0 auto;
+  }
+  .home-page .bio-copy {
+    grid-column: 1 / -1;
+    max-width: none;
+  }
+}
